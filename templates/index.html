@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Support Chatbot</title>
+    
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+<div class="container">
+    <h2>College Student Support Chatbot</h2>
+
+    <div id="chatbox"></div>
+
+    <form id="form">
+        <input id="input" type="text" placeholder="Ask me anything..." autocomplete="off">
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<script>
+const form = document.getElementById("form");
+const input = document.getElementById("input");
+const chatbox = document.getElementById("chatbox");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const msg = input.value;
+  chatbox.innerHTML += `<p class='user'>${msg}</p>`;
+  input.value = "";
+
+  const res = await fetch("/get", {
+    method: "POST",
+    headers: {"Content-Type": "application/x-www-form-urlencoded"},
+    body: "msg=" + msg
+  });
+
+  const text = await res.text();
+  chatbox.innerHTML += `<p class='bot'>${text}</p>`;
+});
+</script>
+
+</body>
+</html>
