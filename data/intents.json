@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How do I apply?",
+        "Admission process",
+        "Eligibility for admission",
+        "When do admissions start?"
+      ],
+      "responses": [
+        "You can apply online through the college portal. Check deadlines and upload documents.",
+        "Admissions are handled through the official portal — complete the form and submit required certificates.",
+        "Please visit the admissions page for eligibility details and application timelines.",
+        "You can track your admission status after submitting the form online."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are exams?",
+        "Exam schedule",
+        "Internal marks",
+        "How to download hall ticket?"
+      ],
+      "responses": [
+        "Exam schedules are available on the exam portal. Hall tickets are issued one week before exams.",
+        "You can find your timetable in the exam notifications section.",
+        "Internal and external marks are uploaded on the student portal.",
+        "Log in to the exam portal to download your hall ticket."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Placement opportunities",
+        "Companies visiting campus",
+        "How to register for placements?",
+        "Average package?"
+      ],
+      "responses": [
+        "Our placement cell invites multiple companies every year for recruitment.",
+        "Register on the Training & Placement portal to participate in drives.",
+        "Attend the pre-placement training sessions for better preparation.",
+        "Placement statistics vary each year — check the placement report for details."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What would you like to know?",
+        "Hey! Feel free to ask me anything about college services.",
+        "Hello! I'm here to assist you."
+      ]
+    }
+  ]
+  
+}
