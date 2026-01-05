@@ -6,7 +6,25 @@
         "How do I apply?",
         "Admission process",
         "Eligibility for admission",
-        "When do admissions start?"
+        "When do admissions start?",
+        "How can I submit my application?",
+        "Where do I register for admission?",
+        "What documents are needed for admission?",
+        "Is there an entrance test for admission?",
+        "When is the admission deadline?",
+        "How can I check my admission status?",
+        "How much is the admission fee?",
+        "Can I edit my admission form after submitting?",   
+        "How do I check if my application was accepted?",
+        "Can I apply offline?",
+        "Is there any scholarship during admission?",
+        "Do I need to upload my certificates?",
+        "What happens after I submit the application?",
+        "Is there a counselling round?",
+        "How do I contact the admissions office?",
+        "Can I change my course after admission?",
+        "Is there any reservation for categories?",
+        "Can I apply for multiple programs?"
       ],
       "responses": [
         "You can apply online through the college portal. Check deadlines and upload documents.",
@@ -21,7 +39,26 @@
         "When are exams?",
         "Exam schedule",
         "Internal marks",
-        "How to download hall ticket?"
+        "How to download hall ticket?",
+        "Where can I check exam timetable?",
+        "Are exam dates released?",
+        "When is the semester exam?",
+        "How do I know my exam center?",
+        "When will results be declared?",
+        "How to apply for revaluation?",
+        "What is the passing criteria?",
+        "How many internals are conducted?",
+        "How do I prepare for semester exams?",
+        "Where do I get model question papers?",
+        "Are supplementary exams available?",
+        "What happens if I miss an exam?",
+        "Can exam dates be postponed?",
+        "How many credits do I need to pass?",
+        "Where can I view my grade card?",
+        "Who should I contact for exam issues?",
+        "How are internal marks calculated?",
+        "Is attendance required for writing exams?"
+
       ],
       "responses": [
         "Exam schedules are available on the exam portal. Hall tickets are issued one week before exams.",
@@ -36,7 +73,25 @@
         "Placement opportunities",
         "Companies visiting campus",
         "How to register for placements?",
-        "Average package?"
+        "Average package?",
+        "What is the placement procedure?",
+        "How can I improve my chances in placements?",
+        "Do companies visit every year?",
+        "Where can I see placement notifications?",
+        "Is there training for interviews?",
+        "Which companies hire from our college?",
+        "How many students get placed each year?",
+        "Is internship included in placements?",
+        "How do I create a resume for placements?",
+        "Is aptitude training provided?",
+        "Do companies ask technical questions?",
+        "Are placements guaranteed?",
+        "Can non-IT students sit for IT placements?",
+        "What CGPA is required for placements?",
+        "Do internships help in placements?",
+        "Is there any placement registration fee?",
+        "Where can I upload my resume?",
+        "Who is the placement coordinator?" 
       ],
       "responses": [
         "Our placement cell invites multiple companies every year for recruitment.",
@@ -47,14 +102,82 @@
     },
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "How are you?",
+        "Is anyone there?",
+        "Hi bot",
+        "Hello assistant"
+      ],
       "responses": [
         "Hello! How can I help you?",
         "Hi there! What would you like to know?",
         "Hey! Feel free to ask me anything about college services.",
         "Hello! I'm here to assist you."
       ]
-    }
+    },
+    {
+  "tag": "scholarships",
+  "patterns": [
+    "Scholarship details",
+    "What scholarships are available?",
+    "How can I apply for scholarships?",
+    "Am I eligible for scholarship?",
+    "Government scholarship application",
+    "When is the scholarship last date?",
+    "How do I renew my scholarship?",
+    "What documents are required for scholarship?",
+    "Where can I check scholarship status?",
+    "Is there a merit scholarship?",
+    "Are there scholarships for reserved categories?",
+    "Do economically weaker students get scholarships?",
+    "Can I apply for more than one scholarship?",
+    "How much amount is provided in scholarship?",
+    "Who approves the scholarship application?",
+    "My scholarship was rejected — what should I do?",
+    "Is attendance required for scholarship eligibility?",
+    "Is scholarship available for hostellers?"
+  ],
+  "responses": [
+    "Students can apply for scholarships through the official state or national scholarship portal.",
+    "Scholarship eligibility depends on academic performance, income category, and government rules.",
+    "Upload required documents such as income certificate, caste certificate, and previous marksheets while applying.",
+    "You can track the status of your scholarship application through the scholarship portal.",
+    "For specific scholarship queries, visit the scholarship section of the student services office."
   ]
-  
+    },
+    {
+  "tag": "hostel",
+  "patterns": [
+    "How do I apply for hostel?",
+    "Is hostel available?",
+    "Hostel fee details",
+    "Who is eligible for hostel accommodation?",
+    "Hostel rules and regulations",
+    "Whom should I contact for hostel issues?",
+    "Can first-year students get hostel?",
+    "How are rooms allotted?",
+    "Is hostel food provided?",
+    "How to report a hostel complaint?",
+    "What is the hostel curfew time?",
+    "Is Wi-Fi available in hostel?",
+    "Can parents visit the hostel?",
+    "Are visitors allowed inside hostel rooms?"
+  ],
+  "responses": [
+    "Hostel rooms are allotted by the hostel office based on availability and eligibility.",
+    "You need to submit a hostel application along with the required documents.",
+    "Hostel fee details are available at the hostel office or student portal.",
+    "For any hostel-related issues, please contact the hostel warden."
+  ]
+}
+
+
+
+  ]
 }
